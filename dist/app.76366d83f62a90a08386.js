@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{tjUo:function(n,o,e){"use strict";function c(n){console.log(n)}e.r(o);var t=Array.prototype.join;var l=function(n,o){return null==n?"":t.call(n,o)};document.body.appendChild(function(){const n=document.createElement("div");return n.innerHTML=l(["Hello","webpack"]," "),n.onclick=c.bind(null,"Hello webpack"),n}())}},[["tjUo",1]]]);
+//# sourceMappingURL=app.76366d83f62a90a08386.js.map

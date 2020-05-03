@@ -1,11 +1,13 @@
+import Print from './print'
+import { join } from 'lodash-es'
+
 function getComponent() {
-  return import('lodash-es').then( join => {
-    const element = document.createElement('div')
+  const element = document.createElement('div')
 
-    element.innerHTML = join(['Hello', 'webpack'], ' ')
+  element.innerHTML = join(['Hello', 'webpack'], ' ')
+  element.onclick = Print.bind(null, 'Hello webpack')
 
-    return element
-  })
+  return element
 }
 
 document.body.appendChild(getComponent())

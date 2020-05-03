@@ -35,7 +35,20 @@ let config: webpack.Configuration = {
     contentBase: path.join(__dirname, '../dist'),
     hot: true,
   },
-  devtool: 'source-map'
+  devtool: 'source-map',
+  optimization: {
+    moduleIds: 'hashed',
+    runtimeChunk: 'single',
+    splitChunks: {
+      cacheGroups: {
+        vendor: {
+          test: /[\\/]node_modules[\\/]/,
+          name: 'vendors',
+          chunks: 'all'
+        }
+      }
+    }
+  }
 }
 
 module.exports = config

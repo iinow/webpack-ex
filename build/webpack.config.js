@@ -12,13 +12,19 @@ module.exports = {
   mode: 'production', //mode 의 default 값은 production 이다
   entry: {
     app: './src/index.js',
-    print: './src/print.js'
+    // another: './src/another-module.js',
   },
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, '../dist'),
-    publicPath: '/',
+    publicPath: path.resolve(__dirname, '../dist'),
+    chunkFilename: '[name].bundle.js'
   },
+  // optimization: {
+  //   splitChunks: {
+  //     chunks: 'all'
+  //   }
+  // },
   plugins: [
     new ManifestPlugin(),
     new CleanWebpackPlugin({

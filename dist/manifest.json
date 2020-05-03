@@ -1,7 +1,7 @@
 {
-  "app.js": "/Users/al01575068/project/person/webpack-ex/distapp.bundle.js",
-  "app.js.map": "/Users/al01575068/project/person/webpack-ex/distapp.bundle.js.map",
-  "1.bundle.js": "/Users/al01575068/project/person/webpack-ex/dist1.bundle.js",
-  "1.bundle.js.map": "/Users/al01575068/project/person/webpack-ex/dist1.bundle.js.map",
+  "app.js": "/Users/al01575068/project/person/webpack-ex/distapp.f25f0e34146be03f2fc3.js",
+  "app.js.map": "/Users/al01575068/project/person/webpack-ex/distapp.f25f0e34146be03f2fc3.js.map",
+  "1.f25f0e34146be03f2fc3.js": "/Users/al01575068/project/person/webpack-ex/dist1.f25f0e34146be03f2fc3.js",
+  "1.f25f0e34146be03f2fc3.js.map": "/Users/al01575068/project/person/webpack-ex/dist1.f25f0e34146be03f2fc3.js.map",
   "index.html": "/Users/al01575068/project/person/webpack-ex/distindex.html"
 }

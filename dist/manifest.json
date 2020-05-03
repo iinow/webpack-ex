@@ -1,7 +1,0 @@
-{
-  "app.js": "app.bundle.js",
-  "app.js.map": "app.bundle.js.map",
-  "print.js": "print.bundle.js",
-  "print.js.map": "print.bundle.js.map",
-  "index.html": "index.html"
-}

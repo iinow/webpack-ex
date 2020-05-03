@@ -16,17 +16,24 @@ module.exports = {
   },
   output: {
     filename: '[name].bundle.js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, '../dist'),
+    publicPath: '/',
   },
   plugins: [
     new ManifestPlugin(),
-    new CleanWebpackPlugin(),   //빌드 된 파일이 전에 빌드된 파일이면 제거한다 -> 항상 최신 빌드 파일들만 모인다.
+    new CleanWebpackPlugin({
+      cleanStaleWebpackAssets: true
+    }),   //빌드 된 파일이 전에 빌드된 파일이면 제거한다 -> 항상 최신 빌드 파일들만 모인다.
     new HtmlWebpackPlugin({
       // template: path.join(__dirname, 'src/index.html'),
       title: 'Output Management',
       // inject: false,
-      // filename: path.join(__dirname, 'dist/index.html')
+      filename: path.join(__dirname, '../dist/index.html')
     })
   ],
-  devtool: "source-map"
+  devtool: "source-map",
+  devServer: {
+    contentBase: path.join(__dirname, '../dist'),
+    hot: true
+  }
 }

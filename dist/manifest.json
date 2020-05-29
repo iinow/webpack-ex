@@ -1,7 +1,8 @@
 {
-  "app.js": "/Users/al01575068/project/person/webpack-ex/distapp.76366d83f62a90a08386.js",
-  "app.js.map": "/Users/al01575068/project/person/webpack-ex/distapp.76366d83f62a90a08386.js.map",
-  "runtime.js": "/Users/al01575068/project/person/webpack-ex/distruntime.76366d83f62a90a08386.js",
-  "runtime.js.map": "/Users/al01575068/project/person/webpack-ex/distruntime.76366d83f62a90a08386.js.map",
-  "index.html": "/Users/al01575068/project/person/webpack-ex/distindex.html"
+  "app.js": "/app.0120756cbeb80b502ebb.js",
+  "app.js.map": "/app.0120756cbeb80b502ebb.js.map",
+  "runtime.js": "/runtime.0120756cbeb80b502ebb.js",
+  "runtime.js.map": "/runtime.0120756cbeb80b502ebb.js.map",
+  "image1.jpg": "/0896197d1c6a5f7ed01e5b5990edb8b9.jpg",
+  "index.html": "/index.html"
 }

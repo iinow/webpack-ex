@@ -13,6 +13,11 @@
     "start": "webpack-dev-server --config build/webpack.config.js --open",
     "server": "node server.js"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo 커밋한다. "
+    }
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -29,10 +34,13 @@
     "cross-env": "^7.0.2",
     "css-loader": "^3.5.3",
     "csv-loader": "^3.0.3",
+    "eslint": "^7.1.0",
     "express": "^4.17.1",
     "file-loader": "^6.0.0",
     "halib": "^1.0.0",
     "html-webpack-plugin": "^4.3.0",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5",
     "style-loader": "^1.2.1",
     "ts-node": "^8.10.1",
     "tsconfig-paths": "^3.9.0",
@@ -46,6 +54,7 @@
     "xml-loader": "^1.2.1"
   },
   "dependencies": {
+    "eslint-config-prettier": "^6.11.0",
     "lodash": "^4.17.15",
     "lodash-es": "^4.17.15",
     "url-loader": "^4.1.0"

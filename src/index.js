@@ -11,5 +11,5 @@ function getComponent() {
   printMsg()
   return element
 }
-
+console.log(TWO)
 document.body.appendChild(getComponent())

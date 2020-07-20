@@ -55,7 +55,7 @@
   },
   "dependencies": {
     "eslint-config-prettier": "^6.11.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "lodash-es": "^4.17.15",
     "url-loader": "^4.1.0"
   }
